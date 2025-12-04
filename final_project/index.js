@@ -20,7 +20,7 @@ app.use("/customer/auth/*", function auth(req,res,next){
 
         next()
     } else {
-        res.status(403).send('Unauthorized access!')
+        res.status(403).send('Unauthorized access')
     }
 });
  
